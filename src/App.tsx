@@ -54,7 +54,7 @@ function App() {
       total: total,
       item: item
     }
-    const res = await axios.post('http://185.69.153.213:5000/api/send-email', request)
+    const res = await axios.post('http://localhost:5000/api/send-email', request) //express wtih resend pkg
     if(res.data.success){
       console.log('OK')
       setModal1Open(true)
