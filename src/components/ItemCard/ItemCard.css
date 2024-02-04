@@ -1,0 +1,10 @@
+.item-block{
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-template-rows: max-content;
+    column-gap: 20px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
